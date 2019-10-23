@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+<head>
+<title>pop-over in bs</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+<div class="container">
+<h1><p class="text-center ">Popover in bootstrap</p></h1>
+<a href="#" data-toggle="popover" title="popover header" data-content="some data">hover over me</a>
+<br>
+<br>
+<br>
+<br>
+<a href="#" data-toggle="popover" title="left" data-content="data" data-placement="left">left</a>
+<a href="#" data-toggle="popover" title="top" data-content="data" data-placement="top">top</a>
+<a href="#" data-toggle="popover" title="bottom" data-content="data" data-placement="bottom">bottom</a>
+<a href="#" data-toggle="popover" title="right" data-content="data" data-placement="right">right</a>
+<br>
+<br>
+<br>
+<h3><p class="text-center">popover with dismiss</p></h3>
+<a href="#" data-toggle="popover" title="head" data-content="data" data-trigger="focus">dismiss</a>
+<script>
+$(document).ready(function(){
+$('[data-toggle="popover"]').popover()
+} )
+</script>
+</div>
+</body>
+<html>

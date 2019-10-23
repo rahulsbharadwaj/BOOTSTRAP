@@ -1,0 +1,93 @@
+<!doctyoe html>
+<html lang="en">
+<head>
+<title>custom forms in bootstrap</title>
+<meta charset="utf-8" >
+<meta name="viewport" content="width=device-width,initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+<div class="container">
+<h3>Custon forms in bootstrap</h3>
+<form action="/action_page.php">
+<div class="custom-control custom-checkbox mb-3" >
+<input type="checkbox" class="custom-control-input" id="customcheck" name="example1">
+<label class="custom-control-label" for="customcheck">custom-checkbox</label>
+</div>
+<input type="checkbox" id="checkbox" name="example2">
+<label for="example1">default checkbox</label>
+</form>
+</div>
+<div class="container">
+<h3>Custon radio in bootstrap</h3>
+<form action="/action_page.php">
+<div class="custom-control custom-radio mb-3">
+<input type="radio"class="custom-control-input" id="customradio" name="example1">
+<label class="custom-control-label" for="customradio">custom-radio</label>
+</div>
+<input type="radio" id="radio" name="example2">
+<label for="example2">default radio</label>
+</form>
+<h3> custom select </h3>
+<form action="/action_page.php">
+<select name="cars" class="custom-select">
+<option selected>custom select </option>
+<option>volvo</option>
+<option>suzuki</option>
+<option>toyato</option>
+</select>
+<br>
+<br>
+<button class="btn btn-primary" type="submit">Submit</button>
+</form>
+
+<form action="/action_page.php">
+<select name="cars" class="custom-select custom-select-sm">
+<option selected>custom select </option>
+<option>volvo</option>
+<option>suzuki</option>
+<option>toyato</option>
+</select>
+<br>
+<br>
+<button class="btn btn-primary" type="submit">Submit</button>
+</form>
+<br>
+<br>
+
+<form action="/action_page.php">
+<select name="cars" class="custom-select custom-select-lg">
+<option selected>custom select </option>
+<option>volvo</option>
+<option>suzuki</option>
+<option>toyato</option>
+</select>
+<br>
+<br>
+<button class="btn btn-primary" type="submit">Submit</button>
+</form>
+
+<form action="/action_page.php">
+<label for="range">custom range</label>
+<input type="range" class="custom-range">
+<label for="range1">default range</label>
+<input type="range">
+<br>
+<button class=" btn btn-primary" type="submit">Submit</button>
+</form>
+<br>
+<br>
+<form action="/action_page.php">
+<div class="custom-file mb-3">
+<input type="file" class="custom-file-input" id="customfile">
+<label class="custom-file-label" for="file1">Custon File input</label>
+</div>
+<input class="file " id="file">
+<label for="file2">default file</label>
+</form>
+</div>
+</body>
+</html>

@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+<head>
+<title>Collapse in bs</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+</head>
+<body>
+<div class="container">
+<p class="text-center"><h1>collapse in bootstrap</h1></p>
+<button class="btn btn-info" data-toggle="collapse" data-target="#demo">collapse</button>
+<div id="demo" class="collapse">
+<p>the big bang </p>
+</div>
+</div>
+<br>
+<br>
+<div class="container">
+<button class=" btn btn-primary" data-toggle="collapse" data-target="#demo">collapse</button>
+<div id="demo" class="collapse show">
+<P>the big bang </p>
+</div>
+</div>
+<div class="container">
+<div class="accordion"
+<div class="card">
+<div class="card-header">
+<a class="card-link" data-toggle="collapse" href="#collapseone">
+first group
+</a>
+</div>
+<div id="collapseone" class="collapse" data-parent="#accordion">
+<div class="class-body">
+the big bang
+</div>
+</div>
+</div>
+<div class="card">
+<div class="card-header">
+<a class="card-link" data-toggle="collapse" href="#collapsetwo">
+second group
+</a>
+</div>
+<div id="collapsetwo" class="collapse" data-parent="#accordion">
+<div class="class-body">
+the big bang
+</div>
+</div>
+</div>
+</div>
+
+
+
+
+
+
+</body>
+</html>

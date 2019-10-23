@@ -1,0 +1,33 @@
+<!doctype>
+<html lang="en">
+<head>
+<title>toast in bootstrap</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+<div class="container">
+<h1><p class="text-center">toast in bootstrap</p></h1>
+<button class="btn ntn-primary" id="mytoast">Click Me</button>
+<div class="toast">
+	<div class="toast-header">
+		<p>toast header</p>
+	</div>
+	<div class="toast-body">
+		<p>toast-body</p>
+	</div>
+	<div class="toast-footer">
+		<p>toast-footer</p>
+	</div>
+</div>
+<script>
+$(document).ready(function(){
+$(#mytoast).click(function(){
+$('.toast').toast('.show');
+});
+});
+</script>

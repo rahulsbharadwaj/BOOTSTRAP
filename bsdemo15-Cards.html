@@ -1,0 +1,179 @@
+<!doctype html>
+<html lang="en">
+<head>
+<title>cards in bs</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+</head>
+<body>
+<div class="container">
+<p class="text-center"><h1>the basic card in bootstrap</h1></p>
+<div class="card">
+<div class="card-body"><p class="text-center"><font size="6">the basic card</font></p></div>
+<div class="card-body"><p class="text-center"><font size="6">the basic card</font></p></div>
+<div class="card-body"><p class="text-center"><font size="6">the basic card</font></p></div>
+</div>
+
+<p class="text-center"><h1>there are header and footer</h1></p>
+<div class="card">
+<div class="card-header"><p class="text-center">header</p>
+</div>
+</div>
+<div class="card">
+<div class="card-body"><p class="text-center">content</p></div>
+
+<div class="card">
+<div class="card-body"><p class="text-center">content</p></div>
+</div>
+<div class="card">
+<div class="card-body"><p class="text-center">content</p></div>
+</div>
+
+<div class="card-footer"><p class="text-center">footer</p></div>
+</div>
+</div>
+
+<p class="text-center"><h1>we can add different color to the card</h1></p>
+<div class="card bg-success text-white">
+<div class="card-body"><p class="text-center">body</p></div>
+</div>
+<div class="card bg-info text-white">
+<div class="card-body">body</div>
+</div>
+<div class="card bg-warning text-white">
+<div class="card-body">body</div>
+</div>
+<div class="card bg-danger text-white">
+<div class="card-body">body</div>
+</div>
+
+<p class="text-center"><h1>title and link</h1></p>
+<div class="card">
+<div class="card-body">
+<h4 class="card-title">title of the card</h4>
+<p class="card-text">text in the card</p>
+<a href="#" >link</a>
+</div>
+</div>
+
+<p class="text-center"><h1>card having images</h1></p>
+<div class="card" style="width:400px">
+<img class="card-img-top" src="d.jpg">
+<div class="card-body">
+<h4 class="card-title">the image</h4>
+<p class="card-text">the image image</p>
+<a href="#"><button class="btn btn-info">information</button></a>
+</div>
+</div>
+<br>
+<br>
+<div class="card" style="width:400px">
+<div class="card-body">
+<h4 class="card-title">the image</h4>
+<p class="card-text">the image image</p>
+<a href="#"><button class="btn btn-info">info</button></a>
+</div>
+<img class="card-img-bottom"src="g.jpg">
+</div>
+
+<p class="text-center"><h1>card having images overlay</h1></p>
+<div class="card" style="width:400px">
+<img class="card-img-top" src="d.jpg">
+<div class="card-img-overlay">
+<div class="card-body">
+<strong><h4 class="card-title">the image</h4>
+<p class="card-text">the image image</p>
+<a href="#"><button class="btn btn-info">information</button></a></strong>
+</div>
+</div>
+</div>
+
+<p class="text-center"><h1>card in the form of grid</h1></p>
+<div class="card-column">
+<div class="card bg-primary">
+<div class="card-body">
+<p class="card-text text-center">example</p>
+</div>
+</div>
+<div class="card bg-info">
+<div class="card-body">
+<p class="card-text text-center">example</p>
+</div>
+</div>
+<div class="card bg-warning">
+<div class="card-body">
+<p class="card-text text-center">example</p>
+</div>
+</div>
+<div class="card bg-primary">
+<div class="card-body">
+<p class="card-text text-center">example</p>
+</div>
+</div>
+<div class="card bg-info">
+<div class="card-body">
+<p class="card-text text-center">example</p>
+</div>
+</div>
+<div class="card bg-warning">
+<div class="card-body">
+<p class="card-text text-center">example</p>
+</div>
+</div>
+</div>
+
+<p class="text-center"><h1> the cards in the form of grid</h1></p>
+<div class="card-deck"> 
+<div class="card bg-primary">
+<div class="card-body">
+<p class="card-text text-center">example</p>
+</div>
+</div>
+<div class="card bg-info">
+<div class="card-body">
+<p class="card-text text-center">example</p>
+</div>
+</div>
+<div class="card bg-warning">
+<div class="card-body">
+<p class="card-text text-center">example</p>
+<p class="card-text text-center">example</p>
+<p class="card-text text-center">example</p>
+<p class="card-text text-center">example</p>
+<p class="card-text text-center">example</p>
+<p class="card-text text-center">example</p>
+</div>
+</div>
+</div>
+
+<p class="text-center"><h1> the cards in the form of group</h1></p>
+<div class="card-group"> 
+<div class="card bg-primary">
+<div class="card-body">
+<p class="card-text text-center">example</p>
+</div>
+</div>
+<div class="card bg-info">
+<div class="card-body">
+<p class="card-text text-center">example</p>
+</div>
+</div>
+<div class="card bg-warning">
+<div class="card-body">
+<p class="card-text text-center">example</p>
+<p class="card-text text-center">example</p>
+<p class="card-text text-center">example</p>
+<p class="card-text text-center">example</p>
+<p class="card-text text-center">example</p>
+<p class="card-text text-center">example</p>
+</div>
+</div>
+</div>
+
+</div>
+</body>
+</html>

@@ -1,0 +1,161 @@
+<!doctype html>
+<html lang="en">
+<head>
+<title>Forms in bootstrap</title>
+<meta charset="utf-8">
+<meta name="viweport" content="width=device-width,initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+<div class="container">
+<h2>Forms in html</h2>
+<h4>Login Form</h4>
+<form action="/action_page.php">
+<fieldset>
+<div class="form-group">
+<label for="email">Email</label>
+<input type="email" class="form-control" id="email" placeholder="enter email id" name="email">
+</div>
+<div class="form-group">
+<label for="pwd">Password</label>
+<input type="password" class="form-control" id="pwd" placeholder="enter password" name="pwd">
+</div>
+<div class="form-group form-check">
+<label class="form-check-label">
+<input class="form-check-input" type="checkbox" name="remember">Remember me
+</label>
+</div>
+<button type="submit" class="btn btn-primary">Submit</button>
+</fieldset>
+</form>
+<br>
+<br>
+<br>
+<br>
+
+<form action="/action_page.php">
+<div class="form-group">
+  <label for="usr">User Name</label>
+  <input type="text" class="form-control" id="user" placeholder="enter the name" name="user">
+</div>
+<div class="form-group">
+  <label class="pwd">password</label>
+  <input type="password" class="form-control" id="pwd" placeholder="enter the password" name="pwd">
+</div>
+<button type="submit" class="btn btn-primary">submit</button>
+</form>
+<br>
+<br>
+<br>
+<form action="/action_pagr.php">
+<div class="form-group">
+<label for="comments">Comments</label>
+<textarea class="form-control" rows="5" id="comment" placeholder="comments" name="text">
+</textarea>
+</div>
+<button type="submit" class="btn btn-primary">Submit</button>
+</form>
+<br>
+<br>
+<br>
+</div>
+<div class="container">
+<h2> checkbox in bootstrap</h2>
+<form action="/action_page.php">
+<div class="form-check">
+<label class="form-check-label" for="checkbox">
+<input type="checkbox" class="form-check-input" id="check1" name="option1" value="somthing">Option1
+</label>
+</div>
+
+<div class="form-check">
+<label class="form-check-label" for="chekbox">
+<input type="checkbox" class="form-check-input" id="check2" name="option2" value="somthing">option2
+</label>
+</div>
+<div class="form-check">
+<label class="form-check-label" for="checkbox">
+<input type="checkbox" class="form-check-input" id="check3" name="option3" value="somthing">option3
+</label>
+</div>
+<button type="submit" class="btn btn-primary">submit</button>
+</form>
+
+<h3>the checkbox inline</h3>
+<form action="action_page.php">
+<div class="form-check-inline">
+<label class="form-check-label" for="checkbox">
+<input type="checkbox" class="form-check-input" id="check1" name="option1" value="somthing">opthion1
+</label>
+</div>
+<div class="form-check-inline">
+<label class="form-check-label" for="checkbox">
+<input type="checkbox" class="form-check-input" id="check1" name="option1" value="somthing">opthion1
+</label>
+</div>
+<div class="form-check-inline">
+<label class="form-check-label" for="checkbox">
+<input type="checkbox" class="form-check-input" id="check1" name="option1" value="somthing">opthion1
+</label>
+</div>
+<button class="btn btn-primary" type="submit">Submit</button>
+</form>
+
+</div>
+<br>
+<br>
+<div class="container">
+<h3> the radio options</h3>
+<form action="/action_page.php">
+<div class="form-check" >
+<label class="form-check-label" for="radio1">
+<input type="radio"  class="form-check-input" id="radio1" name="option1" value="somthing">option1
+</label>
+</div>
+<div class="form-check" >
+<label class="form-check-label" for="radio2">
+<input type="radio" class="form-check-input" id="radio1" name="option1" value="somthing">option2
+</label>
+</div><div class="form-check" >
+<label class="form-check-label" for="radio3">
+<input type="radio" class="form-check-input" id="radio1" name="option1" value="somthing">option3
+</label>
+</div>
+<button class="btn btn-primary" type="submit">Submit</button>
+</form>
+<br>
+<br>
+<h3> the radio options inline</h3>
+<form action="/action_page.php">
+<div class="form-check-inline" >
+<label class="form-check-label" for="radio1">
+<input type="radio"  class="form-check-input" id="radio1" name="option1" value="somthing">option1
+</label>
+</div>
+<div class="form-check-inline" >
+<label class="form-check-label" for="radio2">
+<input type="radio" class="form-check-input" id="radio1" name="option1" value="somthing">option2
+</label>
+</div><div class="form-check-inline" >
+<label class="form-check-label" for="radio3">
+<input type="radio" class="form-check-input" id="radio1" name="option1" value="somthing">option3
+</label>
+</div>
+<button class="btn btn-primary" type="submit">Submit</button>
+</form>
+
+
+
+
+
+
+
+
+</div>
+
+
+</body>
+</html>
